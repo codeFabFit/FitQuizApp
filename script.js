@@ -78,35 +78,79 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'You never need to work upper body?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'false', correct: true },
+      { text: 'true', correct: false }
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'How to you properly wake up glutes prior to training?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'incline treadmill walk', correct: false },
+      { text: 'the filthy four band routine', correct: true },
+      { text: 'no warm up, go right into it', correct: false },
+      { text: 'who even workouts anymore, BBL', correct: false }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: 'What is the Filthy Four Band Routine?',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
+      { text: 'Squat Jump, Reverse Lunges, High Knee, ButtKicks', correct: false },
+      { text: 'Fire Hydrants, Donkey Kicks, Glute Bridges, Hip Circles', correct: true },
+      { text: 'Step Ups, Stairmaster, Deadlift, 100m Sprint', correct: false },
       { text: 'IDK', correct: false }
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'Hip thrust target which muscle group?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'Gluteus Minimus', correct: false },
+      { text: 'Gluteus Maximus', correct: true }
+    ]
+  },
+  {
+    question: 'You should start with side that is weakest during your workout',
+    answers: [
+      { text: 'starting with the stronger side means get done faster', correct: false },
+      { text: 'started with weaker gives your more energy to finish on the stronger leg', correct: true }
+    ]
+  },
+  {
+    question: 'How many times a week should you train your glutes?',
+    answers: [
+      { text: 'every single day baby wooo', correct: false },
+      { text: '2-3x per week with adequate rest', correct: true }
+    ]
+  },
+  {
+    question: 'Abdominal exercises are important for glute growth?',
+    answers: [
+      { text: 'yes', correct: true },
+      { text: 'no', correct: false }
+    ]
+  },
+  {
+    question: 'Which exercise mainly targets QUADS more',
+    answers: [
+      { text: 'hip thrust', correct: false },
+      { text: 'squats', correct: true }
+    ]
+  },
+  {
+    question: 'Can you lose belly fat by doing squats?',
+    answers: [
+      { text: 'yes, doing just squats will make you lose belly fat', correct: false },
+      { text: 'not directly but still important for healthy weight loss plan', correct: true }
+    ]
+  },
+  {
+    question: 'Select the proper workout order for glute growth:',
+    answers: [
+      { text: '1mile Treadmill Run, Squats, Step Ups, Hip Thrust, Filthy Four ', correct: false },
+      { text: 'Dynamic Warm up, Filthy Four, hip thrust, back extension, good mornings', correct: true },
+      { text: 'High Knees, Butt Kicks, Deadlift, Goblet Squat, Push Ups', correct: false },
+      { text: 'Good Morning, Squats, Goblet Squats, Deadlift', correct: false }
     ]
   }
 ]
